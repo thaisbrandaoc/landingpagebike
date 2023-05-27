@@ -1,0 +1,112 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: #000000;
+  border: 2px solid white;
+}
+
+.menu a:hover {
+  border: 2px solid #e21;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.vantagenstitulo {
+  color: #c6c6c6;
+  font-size: 64px;
+  text-align: end;
+  padding: 40px;
+  align-self: center;
+  text-transform: uppercase;
+}
+
+.introducao {
+  background-color: white;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  justify-items: end;
+  align-content: center;
+}
+
+.introducao h1 {
+  font-size: 2rem;
+}
+.introducao::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background-color: #ee2211;
+  position: absolute;
+  right: -2rem;
+  top: 2rem;
+}
+
+.vermais {
+  background-color: #ee2211;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  place-items: end;
+}
+
+.vantagenstexto {
+  padding: 0.2rem;
+  background-color: white;
+  border-left: 3px solid transparent;
+}
+
+.vantagenstexto:hover {
+  border-left: 3px solid #e21;
+}
+
+.vantagenstexto:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.rodape {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.vermais:hover {
+  background-color: #900;
+}
+
+ul {
+  list-style: none;
+}
